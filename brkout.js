@@ -96,13 +96,7 @@ document.addEventListener("keyup",function(event){
     }
 })
 
-// let rightBtn=document.getElementById("right")
-// let leftBtn=document.getElementById("left")
-
-// function moveRight(){paddle.x += 8}
-// function moveLeft(){paddle.x -= 8}
-// rightBtn.addEventListener('click',moveRight)
-// leftBtn.addEventListener('click',moveLeft)
+// mobile devices' button navigation right and left
 let rightBtn = document.getElementById("right");
 let leftBtn = document.getElementById("left");
 let animationFrameId;
@@ -205,9 +199,6 @@ function ballPaddleCollision(){
         ball.dy=-ball.speed*Math.cos(angle)
     }
 }
-
-
-
 
 // bricks area 
 //  creating bricks
